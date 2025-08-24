@@ -1,7 +1,21 @@
 # Assignment 1 - Plant Classification
 
 ## Project Overview
-This repository contains the implementation for Assignment 1, which focuses on plant classification using machine learning techniques. The project involves classifying different types of plants based on image data.
+This project focuses on building an automated system for classifying weeds and crop seedlings using image data. Early and accurate identification of weeds is essential for precision farming, as it reduces manual labor, lowers herbicide use, and supports sustainable agriculture.
+
+The project compares three models:
+
+- **Baseline CNN** – A standard Convolutional Neural Network with a Softmax classifier.
+- **CNN + SVM** – Features extracted from CNNs are classified with a Support Vector Machine.
+- **CNN + XGBoost** – CNN features are used to train an XGBoost classifier.
+
+### Objectives
+- Evaluate the effectiveness of CNNs and hybrid models (CNN+SVM, CNN+XGBoost) for agricultural image classification.
+- Compare model performance using metrics such as accuracy, precision, recall, F1-score, and ROC-AUC.
+- Identify the most effective approach in terms of accuracy, generalization, and computational efficiency.
+
+### Outcomes
+The study provides insights into whether replacing the CNN's Softmax classifier with SVM or XGBoost improves generalization. The results contribute to the development of precision farming technologies, aligning with UN Sustainable Development Goal (SDG) 2: Zero Hunger.
 
 ## Dataset Structure
 The dataset is organized into training and testing sets with the following plant categories:
