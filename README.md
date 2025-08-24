@@ -14,8 +14,7 @@ The project compares three models:
 - Compare model performance using metrics such as accuracy, precision, recall, F1-score, and ROC-AUC.
 - Identify the most effective approach in terms of accuracy, generalization, and computational efficiency.
 
-### Outcomes
-The study provides insights into whether replacing the CNN's Softmax classifier with SVM or XGBoost improves generalization. The results contribute to the development of precision farming technologies, aligning with UN Sustainable Development Goal (SDG) 2: Zero Hunger.
+
 
 ## Dataset Structure
 The dataset is organized into training and testing sets with the following plant categories:
