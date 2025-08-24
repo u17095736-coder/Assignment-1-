@@ -113,6 +113,25 @@ The plant classification models achieved the following performance across differ
 - **SVM Performance**: CNN & SVM achieves strong performance with 90.21% F1-score and 99.72% ROC-AUC
 - **Baseline CNN**: Standalone CNN provides a solid foundation with 80.84% F1-score and 98.36% ROC-AUC
 
+- #### **ROC Curve Analysis:**
+- **CNN + XGBoost (Green Line)**: Perfect performance with AUC = 1.000
+  - Achieves True Positive Rate of 1.0 with extremely low False Positive Rate
+  - Best performing model for plant classification
+  
+- **CNN + SVM (Orange Line)**: Excellent performance with AUC = 0.997
+  - Significantly outperforms baseline CNN
+  - Strong classification capability with very low false positives
+  
+- **Baseline CNN (Blue Line)**: Very good performance with AUC = 0.984
+  - Solid foundation model
+  - Demonstrates the effectiveness of CNN feature extraction
+
+#### **Performance Interpretation:**
+- All models significantly outperform random classification (AUC = 0.5)
+- Ensemble methods show clear improvement over standalone CNN
+- CNN + XGBoost achieves near-perfect discrimination between plant classes
+- The combination of deep learning features with traditional ML classifiers yields optimal results
+
 ### Key Findings
 - Ensemble methods significantly outperform single models
 - XGBoost classifier provides the best complement to CNN feature extraction
